@@ -1,18 +1,18 @@
 spring: 
   datasource:
-    url: jdbc:mysql://114.116.10.55:3306/sell?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    url: jdbc:mysql://114.**.**.**:3306/sell?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: MyNewPassword4!
+    password: My******
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
     generate-ddl: true
   redis:
-    host: 139.159.210.42
+    host: 139.**.**.**
     port: 6379
-    password: foobared123!@#
+    password: fo******123!**
 logging:
   level:
     org.springframework.web: info

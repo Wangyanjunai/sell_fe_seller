@@ -28,22 +28,22 @@ server:
     uri-encoding: UTF-8
 wechat: 
   mp:
-    mpAppId: wx53762126dcb961f9 #土豆互联公众号AppId
-    mpAppSecret: 15b6fcb9cd933a561733a83e708f040a #土豆互联公众号AppSecret
+    mpAppId: wx53762126******** #土豆互联公众号AppId
+    mpAppSecret: 15b6fcb9cd933a********3e708f040a #土豆互联公众号AppSecret
     ##  mpAppId: wxe6b15040e8fe0a5d #测试号AppId
     ##  mpAppSecret: 747700f306a528059fb4aa73cb917340 #测试号AppSecret
-    mchId: 1453416602
-    mchKey: c6b8341c4d274189bee934112a369212
+    mchId: 14********
+    mchKey: c6b8341c4d274189bee934********12
     token: potato369token
-    aesKey: 8XSi84XgQJ1NE2Hh01FIzJxRVxUq7Eg4s8joHU2nq62
+    aesKey: 8XSi84XgQJ1NE2Hh01FIzJxRVxUq7Eg********nq62
     notifyUrl: /pay/notify
     templateId:
-      orderStatus: l8ZgiVk7Cb3art8XjHtsyv6uPrpooT37ycS37EXywLM
-      orderSuccess: Z_y_ovpCRyU0eBrikdJL9_VsehJA_AouU21L61k8vgc
-      paySuccess: oFx8eJFfs8VC_x58KflhSRcsLBgxCp0y10fwRJN9vRc
+      orderStatus: l8ZgiVk7Cb3art8XjHtsyv6uPrpooT3********ywLM
+      orderSuccess: Z_y_ovpCRyU0eBrikdJL9_VsehJA_Ao********8vgc
+      paySuccess: oFx8eJFfs8VC_x58KflhSRcsLBgxCp0y1********Rc
   open: 
-    openAppid: wx3c2ae24f69ea4121
-    openAppSecret: 0a355cb0843b9b21f9c079f2ca7a72e5
+    openAppid: wx3c2ae2********21
+    openAppSecret: 0a355cb0843b9b21f9c********a72e5
 
 projectUrl: 
   projectName: /sell
