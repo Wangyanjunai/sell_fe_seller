@@ -1,7 +1,7 @@
 spring:
   profiles:
     active:
-    - dev04
+    - dev
   jackson:
     default-property-inclusion: non_null
   freemarker: 
