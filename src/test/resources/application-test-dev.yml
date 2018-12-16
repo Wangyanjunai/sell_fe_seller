@@ -1,0 +1,80 @@
+server:
+  port: 8080
+  context-path: /sell
+  session:
+    timeout: 5000
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/sell?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jackson:
+    default-property-inclusion: NON_NULL
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password: null
+  freemarker:
+    allow-request-override: false
+    allow-session-override: false
+    cache: false
+    checkTemplateLocation: true
+    content-type: text/html
+    exposeRequestAttributes: false
+    exposeSessionAttributes: false
+    exposeSpringMacroHelpers: false
+    prefer-file-system-access: true
+    suffix: .ftl
+    charset: utf-8
+    template-loader-path: classpath:/templates/
+logging:
+  level:
+    org.springframework.web: debug
+    com.imooc.sell: debug
+    com.imooc.sell.dataobject.mapper: trace
+  path: D:\Users\wangyanjun\sell\logs
+  file: D:\Users\wangyanjun\sell\logs\SellApplication.log
+wechat:
+  mpAppId: wx53762126dcb961f9
+  mpAppSecret: 15b6fcb9cd933a561733a83e708f040a
+  openAppid: wx3c2ae24f69ea4121
+  openAppSecret: 0a355cb0843b9b21f9c079f2ca7a72e5
+  mchId: 1453416602
+  mchKey: c6b8341c4d274189bee934112a369212
+  subAppId: null
+  subMchId: null
+  keyPath: D:\Users\wangyanjun\workspace\sell\src\main\resources\cert\h5.p12
+  notifyUrl: /pay/notify
+  templateId:
+    orderStatus: l8ZgiVk7Cb3art8XjHtsyv6uPrpooT37ycS37EXywLM
+    orderSuccess: Z_y_ovpCRyU0eBrikdJL9_VsehJA_AouU21L61k8vgc
+    paySuccess: oFx8eJFfs8VC_x58KflhSRcsLBgxCp0y10fwRJN9vRc
+  pay:
+    appId: wx53762126dcb961f9
+    mchId: 1453416602
+    mchKey: c6b8341c4d274189bee934112a369212
+    keyPath: classpath:cert/h5.p12
+  mp:
+    appId: wx53762126dcb961f9
+    secret: 15b6fcb9cd933a561733a83e708f040a
+    token: potato369token
+    aesKey: 8XSi84XgQJ1NE2Hh01FIzJxRVxUq7Eg4s8joHU2nq62
+projectUrl:
+  projectName: /sell
+  domainUrl: http://potato369.natapp1.cc
+  wechatMpAuthorizeUrl: /wechat/authorize
+  wechatMpAuthorizeUrlUserInfo: /wechat/userInfo
+  wechatOpenAuthorizeUrl: /wechat/qrAuthorize
+  wechatOpenAuthorizeUrlUserInfo: /wechat/qrUserInfo
+  loginUrl: /seller/login
+  logoutUrl: /seller/logout
+  errorUrl: /error
+  successUrl: /success
+mybatis:
+  mapper-locations: classpath:mapper/*

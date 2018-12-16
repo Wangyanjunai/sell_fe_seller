@@ -1,0 +1,43 @@
+产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
+订单信息列表：https://potato369.mynatapp.cc/sell/buyer/order/list?openid=110110110
+微信授权回调：https://potato369.mynatapp.cc/sell/weixin/auth
+
+授权地址：
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx53762126dcb961f9&redirect_uri=https://potato369.mynatapp.cc/sell/weixin/auth&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx53762126dcb961f9&redirect\_uri=https%3A%2F%2Fchong.qq.com%2Fphp%2Findex.php%3Fd%3D%26c%3DwxAdapter%26m%3DmobileDeal%26showwxpaytitle%3D1%26vb2ctag%3D4\_2030\_5\_1194\_60&response\_type=code&scope=snsapi\_base&state=123#wechat\_redirect
+scope
+
+"access_token":"4_3SAqkiP_K5IPz3jzg1H0f9pensf2LaulSNRZRuUR2vSxfn_Yal7sE6Xzl0GxExWMIGikluFpmyWw-fW4CM_VBTg2B6JSAu3EgaBmwEKMjyM","expires_in":7200,"refresh_token":"4_S9qpC0IcE6GqlhBxtg55ufhUdtKsFI030hHkCtWrX2a2dJW2-vve5jyztHGfUDLt6EZGWOs59wAexB-2SIKDqBTF1mphF3-Tq4Jb1Tn8Xzg","openid":"oSkiNv4fBXYxidv0wU_U0UDHNP4M","scope":"snsapi_userinfo"
+
+启动natapp内网穿透工具：natapp.exe -authtoken=99f7af6e31464c91
+
+Win10系统hosts文件路径：C:/WINDOWS/system32/drivers/etc/hosts
+Linux/Uinux系统hosts文件路径：/etc/hosts
+
+买家订单列表路径：http://sell.com/sell/seller/order/list
+卖家后台管理系统路径：https://potato369.mynatapp.cc/sell/seller/product/list
+
+https://potato369.mynatapp.cc/sell/seller/order/list?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+
+http://127.0.0.1:8080/sell/seller/order/list?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+
+后台登录地址Url：
+https://potato369.mynatapp.cc/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+
+http://127.0.0.1:8080/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+
+http://blog.csdn.net/LPFSuperMan/article/details/78287265
+
+http://blog.csdn.net/opengl_es/article/details/47399317
+
+IntelliJ IDEA注册地址：http://idea.lanyus.com
+
+IntelliJ IDEA常用快捷键文档地址：https://www.cnblogs.com/zhangpengshou/p/5366413.html
+
+微信支付wiki文档地址：https://pay.weixin.qq.com/wiki/doc/api/index.html
+
+微信相关第三方sdk路径：https://github.com/Wechat-Group/weixin-java-tools
+
+微信公众接口测试号申请地址：https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login&token=&lang=zh_CN
+
+访问地址：https://potato369.mynatapp.cc/sell/wechat/authorize?returnUrl=https://www.potato369.com

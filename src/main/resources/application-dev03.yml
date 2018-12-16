@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.5:3306/sell?useSSL=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+  redis:
+    host: 192.168.1.5
+    port: 6379
+    password:
+logging:
+  level:
+    org.springframework.web: debug
+    com.imooc.sell: debug
+    com.imooc.sell.dataobject.mapper: trace
+server:
+  port: 8080
+wechat:
+  key-path: /workspace/sell/src/main/resources/cert/h5.p12
