@@ -1,17 +1,10 @@
 package com.imooc.sell.handler;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Map;
 
 import com.imooc.sell.builder.NewsBuilder;
-import com.imooc.sell.dataobject.UserInfo;
-import com.imooc.sell.service.UserInfoService;
 import com.imooc.sell.utils.JsonUtils;
-import com.imooc.sell.utils.UUIDUtil;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutNewsMessage;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import me.chanjar.weixin.common.error.WxErrorException;
@@ -23,9 +16,6 @@ import me.chanjar.weixin.mp.bean.result.WxMpUser;
 
 @Component
 public class SubscribeHandler extends AbstractHandler {
-
-  @Autowired
-  private UserInfoService userInfoService;
 
   /**
    * 一般处理
@@ -51,7 +41,7 @@ public class SubscribeHandler extends AbstractHandler {
     }
     if (userWxInfo != null) {
       // 添加关注用户到本地数据库
-      userInfoService.add(WxMpUser2UserInfo(userWxInfo));
+      //userInfoService.add(WxMpUser2UserInfo(userWxInfo));
     }
 
     WxMpXmlOutMessage responseResult = null;
@@ -94,6 +84,7 @@ public class SubscribeHandler extends AbstractHandler {
    * @param wxMpUser
    * @return
    */
+/*
   private UserInfo WxMpUser2UserInfo(WxMpUser wxMpUser) {
     UserInfo userInfo = UserInfo.builder().build();
     userInfo.setId(UUIDUtil.gen32UUID());
@@ -101,4 +92,5 @@ public class SubscribeHandler extends AbstractHandler {
     userInfo.setNickName(wxMpUser.getNickname());
     return userInfo;
   }
+*/
 }
