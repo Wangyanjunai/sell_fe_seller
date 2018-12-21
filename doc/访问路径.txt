@@ -1,4 +1,4 @@
-产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
+﻿产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
 订单信息列表：https://potato369.mynatapp.cc/sell/buyer/order/list?openid=110110110
 微信授权回调：https://potato369.mynatapp.cc/sell/weixin/auth
 
@@ -23,6 +23,11 @@ http://127.0.0.1:8080/sell/seller/order/list?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
 
 后台登录地址Url：
 https://potato369.mynatapp.cc/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+https://www.potato369.com/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+https://www.potato369.com/sell/seller/product/list?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+http://www.potato369.com:8080/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+https://www.potato369.com/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
+http://www.potato369.com:8080/sell/seller/order/list?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
 
 http://127.0.0.1:8080/sell/seller/login?openid=oSkiNv4fBXYxidv0wU_U0UDHNP4M
 
@@ -41,3 +46,7 @@ IntelliJ IDEA常用快捷键文档地址：https://www.cnblogs.com/zhangpengshou
 微信公众接口测试号申请地址：https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login&token=&lang=zh_CN
 
 访问地址：https://potato369.mynatapp.cc/sell/wechat/authorize?returnUrl=https://www.potato369.com
+
+打包命令：
+项目发布需要把 WebSocketConfig类注释
+mvn clean package -Dmaven.test.skip=true

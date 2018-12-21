@@ -7,7 +7,7 @@
 	<groupId>com.imooc</groupId>
 	<artifactId>sell</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>sell</name>
 	<url>http://maven.apache.org</url>
@@ -61,7 +61,7 @@
 			<artifactId>gson</artifactId>
 		</dependency>
 		
-		<!-- 文档地址：https://github.com/Wechat-Group/weixin-java-tools -->
+		 <!--文档地址：https://github.com/Wechat-Group/weixin-java-tools-->
 		<dependency>
 			<groupId>com.github.binarywang</groupId>
 			<artifactId>weixin-java-pay</artifactId>
@@ -74,11 +74,11 @@
 			<version>3.2.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.github.binarywang</groupId>
-			<artifactId>weixin-java-open</artifactId>
-			<version>3.2.0</version>
-		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>com.github.binarywang</groupId>-->
+			<!--<artifactId>weixin-java-open</artifactId>-->
+			<!--<version>3.2.0</version>-->
+		<!--</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -105,14 +105,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-websocket</artifactId>
-			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<!-- 如果需要打包成war包，并放在tomcat里运行，请放开如下注释 -->
-			<!-- <scope>provided</scope>-->
+			<!-- -->
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -127,12 +127,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/com.positiondev.epublib/epublib-core -->
-		<dependency>
-		    <groupId>com.positiondev.epublib</groupId>
-		    <artifactId>epublib-core</artifactId>
-		    <version>3.1</version>
-		</dependency>
+		<!--&lt;!&ndash; https://mvnrepository.com/artifact/com.positiondev.epublib/epublib-core &ndash;&gt;-->
+		<!--<dependency>-->
+		    <!--<groupId>com.positiondev.epublib</groupId>-->
+		    <!--<artifactId>epublib-core</artifactId>-->
+		    <!--<version>3.1</version>-->
+		<!--</dependency>-->
 
 	</dependencies>
 

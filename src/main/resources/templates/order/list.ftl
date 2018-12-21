@@ -105,10 +105,10 @@
         <script type="application/javascript">
             var websocket = null;
             if ("websocket" in window){
-                   //开发环境（dev）   ：
-                    websocket = new WebSocket("wss://potato369.mynatapp.cc/sell/websocket");
+                   //开发环境（dev）：websocket = new WebSocket("wss://potato369.mynatapp.cc/sell/websocket");
                    //测试环境（test）： websocket = new WebSocket("wss://potato369.mynatapp.cc/sell/websocket");
-                   //生产环境（prod）： websocket = new WebSocket("wss://potato369.mynatapp.cc/sell/websocket");
+                   //生产环境（prod）：
+                    websocket = new WebSocket("wss://www.potato369.com:8090/sell/websocket");
             } else {
                 alert("浏览器不支持WebSocket！！！");
             }
