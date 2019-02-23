@@ -111,8 +111,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<!-- 如果需要打包成war包，并放在tomcat里运行，请放开如下注释 -->
-			<!-- -->
-			<scope>provided</scope>
+			<!-- <scope>provided</scope>-->
 		</dependency>
 
 		<dependency>

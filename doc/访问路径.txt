@@ -1,4 +1,4 @@
-﻿产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
+﻿﻿产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
 订单信息列表：https://potato369.mynatapp.cc/sell/buyer/order/list?openid=110110110
 微信授权回调：https://potato369.mynatapp.cc/sell/weixin/auth
 
@@ -50,6 +50,3 @@ IntelliJ IDEA常用快捷键文档地址：https://www.cnblogs.com/zhangpengshou
 打包命令：
 项目发布需要把 WebSocketConfig类注释
 mvn clean package -Dmaven.test.skip=true
-
-
-
