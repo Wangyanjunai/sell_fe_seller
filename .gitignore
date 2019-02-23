@@ -5,3 +5,4 @@ log/
 *.conf
 *.yml
 /doc/
+/src/resources/*.xml
