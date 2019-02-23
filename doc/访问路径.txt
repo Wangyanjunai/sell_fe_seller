@@ -50,3 +50,6 @@ IntelliJ IDEA常用快捷键文档地址：https://www.cnblogs.com/zhangpengshou
 打包命令：
 项目发布需要把 WebSocketConfig类注释
 mvn clean package -Dmaven.test.skip=true
+
+
+
