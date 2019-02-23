@@ -5,4 +5,4 @@ log/
 *.conf
 *.yml
 /doc/
-/src/resources/*.xml
+logback-spring.xml
