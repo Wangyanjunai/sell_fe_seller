@@ -1,4 +1,4 @@
-﻿﻿产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
+﻿产品信息列表：https://potato369.mynatapp.cc/sell/buyer/product/list
 订单信息列表：https://potato369.mynatapp.cc/sell/buyer/order/list?openid=110110110
 微信授权回调：https://potato369.mynatapp.cc/sell/weixin/auth
 
